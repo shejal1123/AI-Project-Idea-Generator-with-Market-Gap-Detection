@@ -1,0 +1,72 @@
+# Project Folder Structure
+
+```txt
+AI-Project-Idea-Generator/
+│
+├── backend/
+│   ├── app/
+│   │   ├── api/
+│   │   │   ├── routes/
+│   │   │   │   ├── ideas.py
+│   │   │   │   ├── trends.py
+│   │   │   │   └── market_gap.py
+│   │   │   │
+│   │   │   └── api.py
+│   │   │
+│   │   ├── core/
+│   │   │   ├── config.py
+│   │   │   └── database.py
+│   │   │
+│   │   ├── models/
+│   │   │   └── project_model.py
+│   │   │
+│   │   ├── schemas/
+│   │   │   └── project_schema.py
+│   │   │
+│   │   ├── services/
+│   │   │   ├── idea_generator.py
+│   │   │   ├── trend_analyzer.py
+│   │   │   └── market_gap_detector.py
+│   │   │
+│   │   └── main.py
+│   │
+│   ├── requirements.txt
+│   ├── .env
+│   └── .gitignore
+│
+├── frontend/
+│   ├── public/
+│   │
+│   ├── src/
+│   │   ├── components/
+│   │   │   ├── Navbar.jsx
+│   │   │   ├── Hero.jsx
+│   │   │   ├── IdeaCard.jsx
+│   │   │   └── Footer.jsx
+│   │   │
+│   │   ├── pages/
+│   │   │   ├── Home.jsx
+│   │   │   └── Dashboard.jsx
+│   │   │
+│   │   ├── services/
+│   │   │   └── api.js
+│   │   │
+│   │   ├── App.js
+│   │   ├── index.js
+│   │   └── styles.css
+│   │
+│   ├── package.json
+│   └── .gitignore
+│
+├── docs/
+│   ├── architecture.md
+│   ├── api-documentation.md
+│   └── project-flow.md
+│
+├── screenshots/
+│   ├── dashboard.png
+│   └── homepage.png
+│
+├── README.md
+└── .gitignore
+```
